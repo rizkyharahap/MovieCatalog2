@@ -12,7 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.submission2.R;
-import com.example.submission2.activity.DetailMovieActivity;
 import com.example.submission2.activity.DetailTvShowActivity;
 import com.example.submission2.model.TvShow;
 
@@ -39,9 +38,8 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.tvPoster.setImageResource(list.get(position).getPoster());
         holder.tvTitle.setText(list.get(position).getTitle());
-        holder.tvYear.setText(list.get(position).getYear());
-        holder.tvDescription.setText(list.get(position).getYear());
-        holder.tvGenre.setText(list.get(position).getDescription());
+        holder.tvReleaseDate.setText(list.get(position).getReleaseDate());
+        holder.tvGenre.setText(list.get(position).getGenre());
 
     }
 
@@ -50,22 +48,20 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.ViewHolder
         return list.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView tvPoster;
         TextView tvTitle
-                , tvYear
-                , tvDescription
+                , tvReleaseDate
                 , tvGenre;
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvPoster = itemView.findViewById(R.id.image_movie);
-            tvTitle = itemView.findViewById(R.id.title);
-            tvYear = itemView.findViewById(R.id.year);
-            tvDescription = itemView.findViewById(R.id.description);
-            tvGenre = itemView.findViewById(R.id.genre);
+            tvPoster = itemView.findViewById(R.id.iv_poster);
+            tvTitle = itemView.findViewById(R.id.tv_title);
+            tvReleaseDate = itemView.findViewById(R.id.tv_release_date);
+            tvGenre = itemView.findViewById(R.id.tv_genre);
 
 //          onClickListener
             itemView.setOnClickListener(new View.OnClickListener() {

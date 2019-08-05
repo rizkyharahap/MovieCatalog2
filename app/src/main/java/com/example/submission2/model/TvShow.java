@@ -7,7 +7,7 @@ public class TvShow implements Parcelable {
     private int poster;
     private String
             title,
-            year,
+            releaseDate,
             description,
             genre;
 
@@ -27,12 +27,12 @@ public class TvShow implements Parcelable {
         this.title = title;
     }
 
-    public String getYear() {
-        return year;
+    public String getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setYear(String year) {
-        this.year = year;
+    public void setReleaseDate(String releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
     public String getDescription() {
@@ -60,7 +60,7 @@ public class TvShow implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(this.poster);
         dest.writeString(this.title);
-        dest.writeString(this.year);
+        dest.writeString(this.releaseDate);
         dest.writeString(this.description);
         dest.writeString(this.genre);
     }
@@ -68,10 +68,10 @@ public class TvShow implements Parcelable {
     public TvShow() {
     }
 
-    protected TvShow(Parcel in) {
+    private TvShow(Parcel in) {
         this.poster = in.readInt();
         this.title = in.readString();
-        this.year = in.readString();
+        this.releaseDate = in.readString();
         this.description = in.readString();
         this.genre = in.readString();
     }

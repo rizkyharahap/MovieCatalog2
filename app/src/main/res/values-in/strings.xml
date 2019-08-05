@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="text_movie">Movie 1</string>
+    <string name="txt_description">Deskripsi</string>
+    <string name="txt_year">Tahun</string>
+    <string name="txt_rating">90</string>
+    <string name="thumbnail_description">Deskripsi :</string>
+    <string name="year_thumbnail">Tahun :</string>
+    <string name="movie_image_description">movie_image</string>
+    <string name="spacing">:</string>
+    <string name="release_date_thumbnail">Tanggal Rilis</string>
+    <string name="release_date">tanggal_rilis</string>
+    <string name="duration_thumbnail">Durasi</string>
+    <string name="duration">durasi</string>
+    <string name="genre">aliran</string>
+    <string name="genre_thumbnail">Aliran</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Cari Disini</string>
+    <string name="setting_language">Pengaturan</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv_show">Acara TV</string>
+    <string name="Movie">Film</string>
+    <string name="TvShow">Acara TV</string>
+
+    <string-array name="movie_title">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <item>Mortal Engines</item>
+        <item>Preman Pensiun</item>
+        <item>Robin Hood</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>The Girl in the Spider\'s Web</item>
+        <item>The Mule</item>
+        <item>Venom</item>
+    </string-array>
+
+    <string-array name="movie_rating">
+        <item>75</item>
+        <item>68</item>
+        <item>83</item>
+        <item>70</item>
+        <item>81</item>
+        <item>65</item>
+        <item>67</item>
+        <item>69</item>
+        <item>76</item>
+        <item>65</item>
+        <item>63</item>
+        <item>60</item>
+        <item>66</item>
+        <item>71</item>
+        <item>84</item>
+        <item>60</item>
+        <item>65</item>
+        <item>66</item>
+    </string-array>
+
+    <string-array name="movie_year">
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+    </string-array>
+
+    <string-array name="movie_description">
+        <item> Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi, sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Ally lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri. </item>
+        <item> Dulunya merupakan rumah bagi peradaban paling maju di Bumi, kota Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa - dan kemudian dunia permukaan. Yang menghalangi jalannya adalah Aquaman, setengah manusia setengah manusia, saudara setengah Atlantis dan pewaris sejati takhta. Dengan bantuan dari penasihat kerajaan Vulko, Aquaman harus mengambil Trident Atlan yang legendaris dan merangkul takdirnya sebagai pelindung laut. </item>
+        <item> Saat Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala sesuatu yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih tidak pasti. </item>
+        <item> Ketika kekuatan misterius menghancurkan populasi dunia, hanya satu hal yang pasti: jika Anda melihatnya, Anda mengambil hidup Anda. Menghadapi hal yang tidak diketahui, Malorie menemukan cinta, harapan, dan awal yang baru untuk mengungkapnya. Sekarang dia harus melarikan diri bersama kedua anaknya menyusuri sungai berbahaya ke satu tempat yang tersisa yang mungkin menawarkan perlindungan. Tetapi untuk bertahan hidup, mereka harus melakukan perjalanan dua hari yang berbahaya dengan mata tertutup. </item>
+        <item> Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock Queen Rock pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan. </item>
+        <item> Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie membangkitkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa. </item>
+        <item> Mengikuti kehidupan Adonis Creed di dalam dan di luar ring saat ia berurusan dengan ketenaran yang baru ditemukan, masalah dengan keluarganya, dan usahanya untuk menjadi juara. </item>        <item> Fred Savage yang diculik terpaksa menanggung rendisi PG-13 Deadpool 2 dari Deadpool 2 sebagai kisah Putri Bride-esque yang penuh keajaiban, keajaiban, dan nol F. </item>
+        <item> Saat Hiccup memenuhi mimpinya menciptakan utopia naga yang damai, penemuan Toothless \ dari pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka. </item>
+        <item> Dalam serangkaian pertemuan yang meningkat, penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang pria yang terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya. </item>       <item> Kapten Glass dari USS "Arkansas" menemukan bahwa kudeta sedang terjadi di Rusia, jadi ia dan krunya bergabung dengan kelompok elit yang bekerja di tanah untuk mencegah perang. </item>
+        <item> Berada di dunia ribuan tahun di masa depan. Kota-kota di bumi kini menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu Kota Traksi raksasa ini, Tom Natsworthy mengalami pertemuan tak terduga dengan seorang wanita muda misterius dari Outlands yang akan mengubah jalan hidupnya selamanya. </item>        <item> Setelah tiga tahun, bisnis Muslihat, yang telah pensiun sebagai preman, memiliki masalah. Penurunan penjualan. Muslihat juga menghadapi masalah baru ketika Safira, satu-satunya anak perempuannya, tumbuh dewasa dan mulai dikunjungi oleh anak laki-laki. Masalah yang lebih besar: gesekan antara mantan bawahannya. </item>
+        <item> Tentara Salib yang mengeras perang dan komandan Moornya melancarkan pemberontakan yang berani melawan mahkota Inggris yang korup. </item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>In Stockholm, Sweden, hacker Lisbeth Salander is hired by Frans Balder, a computer engineer, to retrieve a program that he believes it is too dangerous to exist.</item>
+        <item>A 90 year old horticulturalist and Korean War veteran is caught transporting $3 million worth of cocaine through Illinois for a Mexican drug cartel.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+    </string-array>
+
+    <string-array name="movie_release_date">
+        <item>Oktober 5, 2018</item>
+        <item>Desember 21, 2018</item>
+        <item>April 25, 2018</item>
+        <item>November 12, 2018</item>
+        <item>Oktober 24, 2018</item>
+        <item>Desember 15, 2018</item>
+        <item>November 21, 2018</item>
+        <item>Desember 11, 2018</item>
+        <item>Januari 3, 2019</item>
+        <item>Desember 14, 2018</item>
+        <item>Januari 16, 2019</item>
+        <item>Oktober 19, 2018</item>
+        <item>Desember 19, 2018</item>
+        <item>Desember 5, 2018</item>
+        <item>Januari 17, 2019</item>
+        <item>November 20, 2018</item>
+        <item>Desember 7, 2018</item>
+        <item>Oktober 26, 2018</item>
+        <item>Desember 14, 2018</item>
+        <item>September 28, 2018</item>
+    </string-array>
+
+    <string-array name="movie_duration">
+        <item>2h 15m</item>
+        <item>2h 23m</item>
+        <item>2h 29m</item>
+        <item>2h 4m</item>
+        <item>2h 15m</item>
+        <item>1h 54m</item>
+        <item>2h 10m</item>
+        <item>1h 57m</item>
+        <item>1h 44m</item>
+        <item>1h 41m</item>
+        <item>2h 9m</item>
+        <item>2h 2m</item>
+        <item>2h 11m</item>
+        <item>2h 8m</item>
+        <item>1h 34m</item>
+        <item>1h 56m</item>
+        <item>1h 57m</item>
+        <item>1h 57m</item>
+        <item>1h 56m</item>
+        <item>1h 52m</item>
+    </string-array>
+
+    <string-array name="movie_genre">
+        <item>Drama, Music, Romance</item>
+        <item>Fantasy, Adventure</item>
+        <item>Adventure, Action, Fantasy</item>
+        <item>Thriller, Drama</item>
+        <item>Drama, Music</item>
+        <item>Action, Adventure, Science Fiction</item>
+        <item>Drama, Action</item>
+        <item>Comedy, Action</item>
+        <item>Animation, Family, Adventure</item>
+        <item>Action, Animation, Science Fiction, Fantasy</item>
+        <item>Thriller, Mystery, Drama, Fantasy</item>
+        <item>Action, Thriller</item>
+        <item>Fantasy, Family, Comedy</item>
+        <item>Science Fiction, Action, Adventure, Fantasy, Thriller</item>
+        <item>Comedy, Drama</item>
+        <item>Adventure, Action, Thriller</item>
+        <item>Action, Adventure, Animation, Science Fiction, Comedy</item>
+        <item>Thriller, Crime, Action</item>
+        <item>Crime, Drama, Thriller</item>
+        <item>Science Fiction, Action</item>
+    </string-array>
+
+    <array name="movie_poster">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+
+
+    <string-array name="tv_show_title">
+        <item>Alita: Battle Angel</item>
+        <item>Happy Death Day 2U</item>
+        <item>The Hole in the Ground</item>
+        <item>Greta</item>
+        <item>Fighting With My Family</item>
+        <item>9</item>
+        <item>Bilby</item>
+        <item>Ruben Brandt, Collector</item>
+        <item>Little Woods</item>
+        <item>Birds of Passage</item>
+        <item>Climax</item>
+        <item>What About Love</item>
+        <item>Donnybrook</item>
+        <item>The Divorce Party</item>
+        <item>Transit</item>
+        <item>Shadow</item>
+        <item>A Madea Family Funeral</item>
+        <item>Harmony</item>
+        <item>Among the Shadows</item>
+        <item>Saint Judy</item>
+    </string-array>
+
+    <string-array name="tv_show_release_date">
+        <item>14 Februari 2019</item>
+        <item>14 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>1 Maret 2019</item>
+        <item>1 Maret 2019</item>
+        <item>14 Februari 2019</item>
+        <item>22 Februari 2019</item>
+        <item>15 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>13 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>15 Februari 2019</item>
+        <item>15 Februari 2019</item>
+        <item>14 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>28 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>14 Februari 2019</item>
+        <item>5 Maret 2019</item>
+        <item>1 Maret 2019</item>
+    </string-array>
+
+    <string-array name="tv_show_genre">
+        <item> Aksi, Fiksi Ilmiah, Thriller, Roman </item>
+        <item> Horor, Misteri, Thriller </item>
+        <item> Horor </item>
+        <item> Thriller, Drama </item>
+        <item> Komedi, Drama </item>
+        <item> Fiksi Ilmiah, Horor, Thriller </item>
+        <item> Animasi, Komedi, Keluarga, Petualangan </item>
+        <item> Animasi, Aksi, Thriller </item>
+        <item> Drama, Thriller </item>
+        <item> Drama, Crime </item>
+        <item> Drama, Horor, Musik, Thriller </item>
+        <item> Romantis, Drama </item>
+        <item> Drama </item>
+        <item> Romansa, Komedi </item>
+        <item> Drama </item>
+        <item> Aksi, Drama </item>
+        <item> Komedi </item>
+        <item> Fantasi, Romansa, Thriller </item>
+        <item> Kejahatan, Horor, Thriller </item>
+        <item> Drama </item>
+    </string-array>
+
+    <string-array name="tv_show_description">
+        <item> Ketika Alita terbangun tanpa ingatan siapa dia di dunia masa depan yang tidak dia kenal, dia dibawa oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat di cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan masa lalu yang luar biasa. </item>
+        <item> Pohon Gelbman mengetahui bahwa mati berulang kali ternyata lebih mudah daripada bahaya yang ada di depan. </item>
+        <item> Mencoba melarikan diri dari masa lalunya yang rusak, Sarah O Neill sedang membangun kehidupan baru di pinggiran kota pedesaan yang terpencil dengan putranya yang kecil Chris. Sebuah pertemuan yang mengerikan dengan tetangga misterius menghancurkan keamanannya yang rapuh, melemparkan Sarah ke dalam mimpi paranoia dan ketidakpercayaan yang meningkat, ketika dia mencoba mengungkap jika perubahan yang mengganggu pada anak lelakinya terhubung ke lubang pembuangan berbahaya yang terkubur jauh di dalam hutan yang berbatasan dengan mereka. rumah. </item>
+        <item> Seorang wanita muda mengembalikan dompet janda tua yang hilang, yang mengarah ke hubungan yang tidak mungkin antara keduanya - sampai wanita muda itu menemukan sesepuhnya mungkin tidak seperti yang terlihat. </item>
+        <item> Mantan pegulat dan keluarganya mencari nafkah tampil di tempat-tempat kecil di seluruh negeri, sementara anak-anaknya bermimpi bergabung dengan World Wrestling Entertainment. </item>
+        <item> Ketika kekuatan di dalam dan di luar dunia ini berkonspirasi untuk merebut putranya, seorang ayah memutuskan untuk melakukan apa pun untuk melindunginya. </item>
+        <item> Diancam setiap hari oleh penduduk yang mematikan dan lingkungan yang keras di Outback Australia, Bilby yang kesepian mendapati dirinya sebagai pelindung tanpa disadari, dan teman tak terduga, bagi bayi burung yang tak berdaya (dan sangat menggemaskan). </item>
+        <item> Psikoterapis Ruben Brandt menjadi penjahat paling dicari di dunia ketika ia dan empat pasiennya mencuri lukisan dari museum dan koleksi seni paling terkenal di dunia. </item>
+        <item> Selama bertahun-tahun, Ollie telah secara ilegal membantu penduduk yang berjuang dari kota booming minyak Dakota Utara-nya mengakses perawatan kesehatan dan obat-obatan Kanada. Ketika pihak berwenang menangkapnya, ia berencana untuk meninggalkan perang salibnya, hanya untuk diseret lebih dalam setelah permohonan putus asa untuk bantuan dari saudara perempuannya. </item>
+        <item> Selama bonanza ganja, satu dekade penuh kekerasan yang melihat asal-usul perdagangan narkoba di Kolombia, Rapayet dan keluarga pribumi Wayuu terlibat dalam bisnis booming penjualan ganja kepada pemuda Amerika pada tahun 1970-an. Saat keserakahan, hasrat, dan kehormatan bertabrakan, perang saudara pecah yang akan mempertaruhkan nyawa, budaya, dan tradisi leluhur mereka. </item>
+        <item> Penari muda berkumpul di gedung sekolah yang terpencil dan kosong untuk berlatih di malam yang dingin dan dingin. Perayaan semalaman segera berubah menjadi mimpi buruk halusinasi ketika mereka mengetahui bahwa sangria mereka penuh dengan LSD. </item>
+        <item> Dua kekasih muda mengubah kehidupan orang tua mereka selamanya ketika orang tua belajar dari pengalaman yang menyenangkan dari anak-anak mereka, dan membiarkan diri mereka lagi menemukan cinta mereka. </item>
+        <item> Seorang mantan marinir yang berjuang untuk menghidupi keluarganya dan seorang pengedar narkoba dengan catatan pertempuran yang tak terkalahkan bertekad untuk bersaing di Donnybrook, perkelahian legendaris, bertelanjang kaki dengan hadiah uang tunai $ 100.000. </item>
+        <item> Seorang janda cerai yang baru-baru ini berusia akhir dua puluhan memutuskan untuk merencanakan pesta cerai seukuran pernikahan dalam upaya untuk mengembalikan hidupnya ke jalur yang benar. </item>
+        <item> Dalam upaya untuk melarikan diri dari Prancis yang diduduki Nazi, Georg mengasumsikan identitas penulis yang mati tetapi segera menemukan dirinya terjebak di Marseilles, di mana ia jatuh cinta dengan Maria, seorang wanita muda yang mencari suaminya yang hilang. </item>
+        <item> Tentang seorang raja yang berusaha untuk memimpin orang-orang terlantar dari pengasingan, dan mereka yang memainkan peran dalam rencana misteriusnya. </item>
+        <item> Reuni keluarga yang penuh kegembiraan menjadi mimpi buruk yang lucu ketika Madea dan kru melakukan perjalanan ke daerah terpencil di Georgia, tempat mereka mendapati diri mereka secara tak terduga merencanakan pemakaman yang mungkin mengungkap rahasia keluarga yang tidak menyenangkan. </item>
+        <item> Terlahir dengan kekuatan energik untuk menyerap rasa takut dari orang lain, seorang wanita muda harus menemukan cinta untuk menyeimbangkan ketakutannya sendiri dan melawan badai energi negatif yang terus tumbuh. </item>
+        <item> Penyelidik swasta harus mengungkap pembunuhan pamannya sambil menjaga rahasia bahwa dia adalah keturunan dari barisan manusia serigala. </item>
+        <item> Kisah nyata pengacara imigrasi Judy Wood dan bagaimana dia sendirian mengubah hukum suaka AS untuk menyelamatkan nyawa wanita. </item>
+    </string-array>
+
+    <array name="tv_show_poster">
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_happy_death_day_2u</item>
+        <item>@drawable/poster_the_hole_in_the_ground</item>
+        <item>@drawable/poster_greta</item>
+        <item>@drawable/poster_fighting_with_my_family</item>
+        <item>@drawable/poster_9</item>
+        <item>@drawable/poster_bilby</item>
+        <item>@drawable/poster_ruben_brandt</item>
+        <item>@drawable/poster_little_woods</item>
+        <item>@drawable/poster_birds_of_passage</item>
+        <item>@drawable/poster_climax</item>
+        <item>@drawable/poster_what_about_love</item>
+        <item>@drawable/poster_donnybrook</item>
+        <item>@drawable/poster_the_divorce_party</item>
+        <item>@drawable/poster_transit</item>
+        <item>@drawable/poster_shadow</item>
+        <item>@drawable/poster_a_madea_family_funeral</item>
+        <item>@drawable/poster_harmony</item>
+        <item>@drawable/poster_among_the_shadows</item>
+        <item>@drawable/poster_saint_judy</item>
+    </array>
+</resources>

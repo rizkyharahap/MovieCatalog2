@@ -36,11 +36,11 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull MovieAdapter.ViewHolder holder, int position) {
-        holder.tvPoster.setImageResource(list.get(position).getPoster());
-        holder.tvTitle.setText(list.get(position).getTitle());
-        holder.tvRating.setText(list.get(position).getRating());
-        holder.tvYear.setText(list.get(position).getYear());
-        holder.tvDescription.setText(list.get(position).getDescription());
+        holder.moviePoster.setImageResource(list.get(position).getPoster());
+        holder.movieTitle.setText(list.get(position).getTitle());
+        holder.movieRating.setText(list.get(position).getRating());
+        holder.movieYear.setText(list.get(position).getYear());
+        holder.movieDescription.setText(list.get(position).getDescription());
 
     }
 
@@ -49,24 +49,22 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         return list.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView tvPoster;
-        TextView tvTitle
-                , tvRating
-                , tvYear
-                , tvDescription
-                , tvGenre;
+        TextView movieTitle
+                , movieRating
+                , movieYear
+                , movieDescription;
+        ImageView moviePoster;
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvPoster = itemView.findViewById(R.id.image_movie);
-            tvTitle = itemView.findViewById(R.id.title);
-            tvRating = itemView.findViewById(R.id.rating);
-            tvYear = itemView.findViewById(R.id.year);
-            tvDescription = itemView.findViewById(R.id.description);
-            tvGenre = itemView.findViewById(R.id.genre);
+            moviePoster = itemView.findViewById(R.id.iv_poster);
+            movieTitle = itemView.findViewById(R.id.tv_title);
+            movieRating = itemView.findViewById(R.id.tv_rating);
+            movieYear = itemView.findViewById(R.id.tv_year);
+            movieDescription = itemView.findViewById(R.id.tv_description);
 
 //            onClickListener
             itemView.setOnClickListener(new View.OnClickListener() {

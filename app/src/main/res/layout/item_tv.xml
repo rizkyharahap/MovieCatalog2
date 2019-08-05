@@ -1,81 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="200dp">
+    android:background="@android:color/background_dark"
+    android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/image_movie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:src="@drawable/poster_dragon"
+        android:id="@+id/iv_poster"
+        android:layout_width="95dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/movie_image_description"
         android:scaleType="centerCrop"
-        tools:contentDescription="@string/movie_image_description" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/poster_dragon" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:drawable/screen_background_dark_transparent"
-        android:orientation="vertical"
-        android:padding="@dimen/margin_vertical"
-        android:layout_marginBottom="4dp">
+    <TextView
+        style="@style/TextContent"
+        android:id="@+id/tv_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_poster"
+        app:layout_constraintTop_toTopOf="@+id/iv_poster"
+        tools:text="@string/text_movie" />
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_movie"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white"/>
+    <TextView
+        style="@style/TextContent.Small"
+        android:id="@+id/tv_release_date"
+        android:layout_toEndOf="@id/tv_title"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_poster"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        tools:text="@string/release_date" />
 
-        <TextView
-            android:id="@+id/year"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="16dp"
-            android:layout_toEndOf="@+id/title"
-            android:text="@string/txt_year"
-            android:textColor="@android:color/white"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+    <TextView
+        style="@style/TextContent.Small"
+        android:id="@+id/tv_genre"
+        android:layout_below="@id/tv_title"
+        app:layout_constraintStart_toEndOf="@+id/iv_poster"
+        app:layout_constraintTop_toBottomOf="@+id/tv_release_date"
+        tools:text="@string/genre" />
 
-        <TextView
-            android:id="@+id/rating"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_below="@+id/title"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="9dp"
-            android:background="@drawable/star_yellow"
-            android:gravity="center"
-            android:text="@string/txt_rating"
-            android:textColor="@android:color/white"
-            android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/genre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/rating"
-            android:layout_marginTop="10dp"
-            android:text="@string/txt_description"
-            android:textColor="@android:color/white"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/genre"
-            android:layout_marginTop="8dp"
-            android:maxLines="3"
-            android:text="@string/txt_description"
-            android:textColor="@android:color/white"
-            android:textSize="14sp" />
-    </RelativeLayout>
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

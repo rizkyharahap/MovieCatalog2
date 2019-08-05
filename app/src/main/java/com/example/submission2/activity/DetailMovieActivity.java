@@ -11,33 +11,45 @@ import com.example.submission2.model.Movie;
 
 public class DetailMovieActivity extends AppCompatActivity {
 
-    Movie movie;
-    private TextView tvJudul;
-    private ImageView ivGambar;
-    private TextView tvDeskripsi;
-    private TextView tvTanggalrilis;
-    private TextView tvGenre;
+    TextView movieTitle
+            , movieRating
+            , movieYear
+            , movieReleaseDate
+            , movieDuration
+            , movieGenre
+            , movieDescription;
+    ImageView moviePoster
+            , movieBackdrop;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_movie);
         initView();
-        movie = getIntent().getParcelableExtra("movies");
+        Movie movie = getIntent().getParcelableExtra("movies");
+
         assert movie != null;
-        tvJudul.setText(movie.getTitle());
-        tvDeskripsi.setText(movie.getDescription());
-        tvTanggalrilis.setText(movie.getReleaseDate());
-        tvGenre.setText(movie.getGenre());
-        ivGambar.setImageResource(movie.getPoster());
+        movieBackdrop.setImageResource(movie.getPoster());
+        moviePoster.setImageResource(movie.getPoster());
+        movieTitle.setText(movie.getTitle());
+        movieRating.setText(movie.getRating());
+        movieYear.setText(movie.getYear());
+        movieReleaseDate.setText(movie.getReleaseDate());
+        movieDuration.setText(movie.getDuration());
+        movieGenre.setText(movie.getGenre());
+        movieDescription.setText(movie.getDescription());
     }
 
     private void initView() {
         //Deklarasi
-        tvJudul = findViewById(R.id.tv_title);
-        ivGambar = findViewById(R.id.iv_image);
-        tvDeskripsi = findViewById(R.id.tv_description);
-        tvTanggalrilis = findViewById(R.id.tv_release_date);
-        tvGenre = findViewById(R.id.tv_genre);
+        movieBackdrop = findViewById(R.id.iv_backdrop);
+        moviePoster = findViewById(R.id.iv_poster);
+        movieTitle = findViewById(R.id.tv_title);
+        movieRating =findViewById(R.id.tv_rating);
+        movieYear = findViewById(R.id.tv_year);
+        movieReleaseDate = findViewById(R.id.tv_release_date);
+        movieDuration = findViewById(R.id.tv_duration);
+        movieGenre = findViewById(R.id.tv_genre);
+        movieDescription = findViewById(R.id.tv_description);
     }
 }

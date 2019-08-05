@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class TvShowFragment extends Fragment {
     private TypedArray tvPoster;
     private String[] tvTitle
-            , tvYear
+            , tvReleaseDate
             , tvDescription
             , tvGenre;
     private ArrayList<TvShow> tvShows;
@@ -54,7 +54,7 @@ public class TvShowFragment extends Fragment {
             TvShow tvShow = new TvShow();
             tvShow.setPoster(tvPoster.getResourceId(i, -1));
             tvShow.setTitle(tvTitle[i]);
-            tvShow.setYear(tvYear[i]);
+            tvShow.setReleaseDate(tvReleaseDate[i]);
             tvShow.setGenre(tvGenre[i]);
             tvShow.setDescription(tvDescription[i]);
             tvShows.add(tvShow);
@@ -62,11 +62,11 @@ public class TvShowFragment extends Fragment {
     }
 
     private void resource() {
-        tvPoster = getResources().obtainTypedArray(R.array.movie_poster);
-        tvTitle = getResources().getStringArray(R.array.movie_title);
-        tvYear = getResources().getStringArray(R.array.movie_rating);
-        tvGenre = getResources().getStringArray(R.array.movie_year);
-        tvDescription = getResources().getStringArray(R.array.movie_release_date);
+        tvPoster = getResources().obtainTypedArray(R.array.tv_show_poster);
+        tvTitle = getResources().getStringArray(R.array.tv_show_title);
+        tvReleaseDate = getResources().getStringArray(R.array.tv_show_release_date);
+        tvGenre = getResources().getStringArray(R.array.tv_show_genre);
+        tvDescription = getResources().getStringArray(R.array.tv_show_description);
     }
 
 }

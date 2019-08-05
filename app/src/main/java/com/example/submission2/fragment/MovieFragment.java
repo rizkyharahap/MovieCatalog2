@@ -20,11 +20,14 @@ import java.util.ArrayList;
 
 public class MovieFragment extends Fragment {
 
-    private TypedArray tvPoster;
-    private String[] tvTitle
-            , tvRating
-            , tvYear
-            ,tvDescription;
+    private TypedArray moviePoster;
+    private String[] movieTitle
+            , movieRating
+            , movieYear
+            , movieReleaseDate
+            , movieDuration
+            , movieGenre
+            , movieDescription;
     private ArrayList<Movie> movies;
 
     @Nullable
@@ -43,8 +46,7 @@ public class MovieFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), RecyclerView.VERTICAL, false));
         recyclerView.setAdapter(movieAdapter);
         recyclerView.setHasFixedSize(true);
-
-
+        
         return rootView;
     }
 
@@ -52,23 +54,29 @@ public class MovieFragment extends Fragment {
 
         movies = new ArrayList<>();
 
-        for (int i = 0; i <tvTitle.length; i++) {
+        for (int i = 0; i <movieTitle.length; i++) {
             Movie movie = new Movie();
-            movie.setPoster(tvPoster.getResourceId(i, -1));
-            movie.setTitle(tvTitle[i]);
-            movie.setYear(tvYear[i]);
-            movie.setRating(tvRating[i]);
-            movie.setDescription(tvDescription[i]);
+            movie.setPoster(moviePoster.getResourceId(i, -1));
+            movie.setTitle(movieTitle[i]);
+            movie.setRating(movieRating[i]);
+            movie.setYear(movieYear[i]);
+            movie.setReleaseDate(movieReleaseDate[i]);
+            movie.setDuration(movieDuration[i]);
+            movie.setGenre(movieGenre[i]);
+            movie.setDescription(movieDescription[i]);
             movies.add(movie);
         }
     }
 
     private void resource() {
-        tvPoster = getResources().obtainTypedArray(R.array.movie_poster);
-        tvTitle = getResources().getStringArray(R.array.movie_title);
-        tvRating = getResources().getStringArray(R.array.movie_rating);
-        tvYear = getResources().getStringArray(R.array.movie_year);
-        tvDescription = getResources().getStringArray(R.array.movie_description);
+        moviePoster = getResources().obtainTypedArray(R.array.movie_poster);
+        movieTitle = getResources().getStringArray(R.array.movie_title);
+        movieRating = getResources().getStringArray(R.array.movie_rating);
+        movieYear = getResources().getStringArray(R.array.movie_year);
+        movieReleaseDate = getResources().getStringArray(R.array.movie_release_date);
+        movieDuration = getResources().getStringArray(R.array.movie_duration);
+        movieGenre = getResources().getStringArray(R.array.movie_genre);
+        movieDescription = getResources().getStringArray(R.array.movie_description);
     }
 
 }

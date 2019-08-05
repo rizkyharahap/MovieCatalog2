@@ -3,7 +3,6 @@
     <string name="text_movie">Movie 1</string>
     <string name="txt_description">Description</string>
     <string name="txt_year">year</string>
-    <string name="text_header">Whats New</string>
     <string name="txt_rating">90</string>
     <string name="thumbnail_description">Description :</string>
     <string name="year_thumbnail">Year :</string>
@@ -12,7 +11,7 @@
     <string name="release_date_thumbnail">Release Date</string>
     <string name="release_date">release_date</string>
     <string name="duration_thumbnail">Duration</string>
-    <string name="duration">duratuon</string>
+    <string name="duration">duration</string>
     <string name="genre">genre</string>
     <string name="genre_thumbnail">Genre</string>
     <string name="search">Search</string>
@@ -20,6 +19,8 @@
     <string name="setting_language">Setting</string>
     <string name="title_movie">Movie</string>
     <string name="title_tv_show">TV Show</string>
+    <string name="Movie">Movie</string>
+    <string name="TvShow">TV Show</string>
 
     <string-array name="movie_title">
         <item>A Star Is Born</item>
@@ -85,48 +86,24 @@
     </string-array>
 
     <string-array name="movie_description">
-        <item>Seorang bintang musik country yang karirnya mulai memudar, Jackson Maine (Bradley Cooper) menemukan sebuah talenta yang sangat berbakat di dalam diri dari seorang musisi muda bernama Ally (Lady Gaga). Maine berhasil mengorbitkan Ally menjadi seorang bintang muda yang menjanjikan. Namun keduanya terlibat hubungan yang lebih jauh dari sekedar mentor dan anak didik. Seiring dengan meroketnya karir dari Ally dan dirinya, Maine mengalami dilema mengenai masalah ini.</item>
-        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm\'s half-human, half-Atlantean brother and true heir to the throne.</item>
-        <item>Karena Avengers dan sekutunya terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh seorang pahlawan, bahaya baru telah muncul dari bayangan kosmik: Thanos. Seorang lalim penghujatan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan yang tak terbayangkan, dan menggunakannya untuk menimbulkan kehendak memutar pada semua realitas. Segala sesuatu yang telah diperjuangkan oleh Avengers telah berkembang hingga saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
-        <item>Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.</item>
+        <item>Seasoned musician Jackson Maine discovers - and falls in love with - struggling artist Ally. She has just about given up on her dream to make it big as a singer, until Jack coaxes her into the spotlight. But even as Ally\'s career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people - and then the surface world. Standing in his way is Aquaman, Orm\'s half-human, half-Atlantean brother and true heir to the throne. With help from royal counselor Vulko, Aquaman must retrieve the legendary Trident of Atlan and embrace his destiny as protector of the deep.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>When a mysterious force decimates the world\'s population, only one thing is certain: if you see it, you take your life. Facing the unknown, Malorie finds love, hope and a new beginning only for it to unravel. Now she must flee with her two children down a treacherous river to the one place left that may offer sanctuary. But to survive, they\'ll have to undertake the perilous two-day journey blindfolded.</item>
         <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock \'n\' roll band Queen in 1970. Hit songs become instant classics. When Mercury\'s increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
-        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
-        <item>Between personal obligations and training for his next big fight against an opponent with ties to his family\'s past, Adonis Creed is up against the challenge of his life.</item>
-        <item>A kidnapped Fred Savage is forced to endure Deadpool\'s PG-13 rendition of Deadpool 2 as a Princess Bride-esque story that\'s full of magic, wonder zero F\'s.</item>
-        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
-        <item>In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.</item>
-        <item>Captain Glass of the USS Arkansas discovers that a coup d\'état is taking place in Russia, so he and his crew join an elite group working on the ground to prevent a war.</item>
-        <item>Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
-        <item>Gobang kembali ke Bandung, mengundang teman-temannya, para mantan preman untuk bertemu kembali. Mereka yang diundang adalah Ujang, Murad, Pipit, Cecep, Bohim, Mang Uu, Dikdik dan Joni. Dikdik kemudian tidak jadi datang karena masalah dengan istrinya. Dalam pertemuan yang disebut “reuni kecil-kecilan” itu, Gobang meminta bantuan teman-temannya untuk melakukan penyelidikan, siapa pelaku pembantaian terhadap adik iparnya hingga tewas. Pelaku pembantaian kemudian diketahui adalah Darman dan kawan-kawan yang hanya sebagai orang suruhan. Dalang di balik kejadian itu ternyata teman mereka sendiri, sesama bekas anak buah Muslihat (Epy Kusnandar) yang sebenarnya juga sudah pensiun. Muslihat mencoba mencegah terjadinya perang saudara, tapi Gobang sudah terlanjur datang dengan membawa dendam, “darah dibayar darah, nyawa dibayar nyaw</item>
-        <item>Robin Hood is a British television programme, produced by independent production company Tiger Aspect Productions for BBC One, with co-funding from the BBC America cable television channel in the United States. Based on the traditional stories of legendary English folk hero Robin Hood, the programme started on 7 October 2006. Series two commenced broadcasting on 6 October 2007 with the final two episodes on 29 December 2007. Series three began airing on 28 March 2009 for a thirteen episode run. The series was axed by the BBC after series three following the departure of multiple characters, including lead actor Jonas Armstrong.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Follows Adonis Creed\'s life inside and outside of the ring as he deals with new found fame, issues with his family, and his continuing quest to become a champion.</item>
+        <item>A kidnapped Fred Savage is forced to endure Deadpool\'s PG-13 rendition of Deadpool 2 as a Princess Bride-esque story that\'s full of magic, wonder and zero F\'s.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless\' discovery of an untamed, elusive mate draws the Night Fury away.  When danger mounts at home and Hiccup\'s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>In a series of escalating encounters, security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.</item>
+        <item>Captain Glass of the USS "Arkansas" discovers that a coup d\'état is taking place in Russia, so he and his crew join an elite group working on the ground to prevent a war.</item>
+        <item>Set in a world many thousands of years in the future. Earth\'s cities now roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive Traction Cities, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the Outlands who will change the course of his life forever.</item>
+        <item>After three years, the business of Muslihat, who has retired as a thug, has a problem. Sales decline. Muslihat also faces new problems when Safira, her only daughter, grows up in adolescence and begins to be visited by boys. A bigger problem: frictions between his former subordinates.</item>
+        <item>A war-hardened Crusader and his Moorish commander mount an audacious revolt against the corrupt English crown.</item>
         <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
         <item>In Stockholm, Sweden, hacker Lisbeth Salander is hired by Frans Balder, a computer engineer, to retrieve a program that he believes it is too dangerous to exist.</item>
-        <item>Earl Stone, a man in his 80s, is broke, alone, and facing foreclosure of his business when he is offered a job that simply requires him to drive. Easy enough, but, unbeknownst to Earl, he’s just signed on as a drug courier for a Mexican cartel. He does so well that his cargo increases exponentially, and Earl hit the radar of hard-charging DEA agent Colin Bates.</item>
-        <item>Seorang jurnalis, Eddie Brock (Tom Hardy) ingin melakukan sebuah investasi kasus terhadap penemuan yang dipimpin oleh Dr. Carlton Drake (Riz Ahmed). Karena investigasinya, Eddie mengunjungi lab milik Dr. Calrlton Drake. Semuanya ditujukan untuk membuktikan bahwa Dr. Carlton Drake sedang sedang melakukan tindakan jahat menggunakan Symbiote. Namun, sial bagi Eddie, organisme hidup ini masuk ke dalam tubuhnya. Eddie menemukan kekuatan super dalam dirinya yang mampu mengendalikan semua hal yang ia lakukan.</item>
-    </string-array>
-
-
-    <string-array name="list_judul_movies">
-        <item>A Star Is Born</item>
-        <item>Aquaman</item>
-        <item>Avengers: Infinity War</item>
-        <item>Bird Box</item>
-        <item>Bohemian Rhapsody</item>
-        <item>Bumblebee</item>
-        <item>Creed II</item>
-        <item>Once Upon a Deadpool</item>
-        <item>How to Train Your Dragon: The Hidden World</item>
-        <item>Dragon Ball Super: Broly</item>
-        <item>Glass</item>
-        <item>Hunter Killer</item>
-        <item>Mary Poppins Returns</item>
-        <item>Mortal Engines</item>
-        <item>Preman Pensiun</item>
-        <item>Robin Hood</item>
-        <item>Spider-Man: Into the Spider-Verse</item>
-        <item>The Girl in the Spider\'s Web</item>
-        <item>The Mule</item>
-        <item>Venom</item>
+        <item>A 90 year old horticulturalist and Korean War veteran is caught transporting $3 million worth of cocaine through Illinois for a Mexican drug cartel.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
     </string-array>
 
     <string-array name="movie_release_date">
@@ -217,5 +194,121 @@
         <item>@drawable/poster_thegirl</item>
         <item>@drawable/poster_themule</item>
         <item>@drawable/poster_venom</item>
+    </array>
+
+
+    <string-array name="tv_show_title">
+        <item>Alita: Battle Angel</item>
+        <item>Happy Death Day 2U</item>
+        <item>The Hole in the Ground</item>
+        <item>Greta</item>
+        <item>Fighting With My Family</item>
+        <item>9</item>
+        <item>Bilby</item>
+        <item>Ruben Brandt, Collector</item>
+        <item>Little Woods</item>
+        <item>Birds of Passage</item>
+        <item>Climax</item>
+        <item>What About Love</item>
+        <item>Donnybrook</item>
+        <item>The Divorce Party</item>
+        <item>Transit</item>
+        <item>Shadow</item>
+        <item>A Madea Family Funeral</item>
+        <item>Harmony</item>
+        <item>Among the Shadows</item>
+        <item>Saint Judy</item>
+    </string-array>
+
+    <string-array name="tv_show_release_date">
+        <item>14 Februari 2019</item>
+        <item>14 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>1 Maret 2019</item>
+        <item>1 Maret 2019</item>
+        <item>14 Februari 2019</item>
+        <item>22 Februari 2019</item>
+        <item>15 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>13 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>15 Februari 2019</item>
+        <item>15 Februari 2019</item>
+        <item>14 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>28 Februari 2019</item>
+        <item>1 Maret 2019</item>
+        <item>14 Februari 2019</item>
+        <item>5 Maret 2019</item>
+        <item>1 Maret 2019</item>
+    </string-array>
+
+    <string-array name="tv_show_genre">
+        <item>Action, Science Fiction, Thriller, Romance</item>
+        <item>Horror, Mystery, Thriller</item>
+        <item>Horror</item>
+        <item>Thriller, Drama</item>
+        <item>Comedy, Drama</item>
+        <item>Science Fiction, Horror, Thriller</item>
+        <item>Animation, Comedy, Family, Adventure</item>
+        <item>Animation, Action, Thriller</item>
+        <item>Drama, Thriller </item>
+        <item>Drama, Crime</item>
+        <item>Drama, Horror, Music, Thriller </item>
+        <item>Romance, Drama</item>
+        <item>Drama</item>
+        <item>Romance, Comedy</item>
+        <item>Drama</item>
+        <item>Action, Drama</item>
+        <item>Comedy</item>
+        <item>Fantasy, Romance, Thriller </item>
+        <item>Crime, Horror, Thriller </item>
+        <item>Drama</item>
+    </string-array>
+
+    <string-array name="tv_show_description">
+        <item>When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.</item>
+        <item>Tree Gelbman learns that dying over and over again was surprisingly easier than the dangers that lie ahead.</item>
+        <item>Trying to escape her broken past, Sarah O\'Neill is building a new life on the fringes of a backwood rural town with her young son Chris. A terrifying encounter with a mysterious neighbour shatters her fragile security, throwing Sarah into a spiralling nightmare of paranoia and mistrust, as she tries to uncover if the disturbing changes in her little boy are connected to an ominous sinkhole buried deep in the forest that borders their home.</item>
+        <item>A young woman returns an elderly widow’s lost purse, leading to an unlikely relationship between the two — until the young woman discovers her elder might not be all that she seems.</item>
+        <item>A former wrestler and his family makes a living performing at small venues around the country, while his kids dream of joining World Wrestling Entertainment.</item>
+        <item>When forces within and beyond this world conspire to snatch his son away, a father resolves to do whatever it takes to protect him.</item>
+        <item>Threatened daily by the deadly residents and harsh environment of Australia\'s Outback, a lonesome bilby finds himself an unwitting protector, and unexpected friend, to a helpless (and quite adorable) baby bird.</item>
+        <item>Psychotherapist Ruben Brandt becomes the most wanted criminal in the world when he and four of his patients steal paintings from the world\'s most renowned museums and art collections.</item>
+        <item>For years, Ollie has illicitly helped the struggling residents of her North Dakota oil boomtown access Canadian health care and medication. When the authorities catch on, she plans to abandon her crusade, only to be dragged in even deeper after a desperate plea for help from her sister.</item>
+        <item>During the marijuana bonanza, a violent decade that saw the origins of drug trafficking in Colombia, Rapayet and his indigenous Wayuu family get involved in a booming business of selling marijuana to American youth in the 1970s. When greed, passion and honour collide, a fratricidal war breaks out that will put their lives, culture and ancestral traditions at stake.</item>
+        <item>Young dancers gather in a remote and empty school building to rehearse on a cold and wintry night. The all-night celebration soon turns into a hallucinatory nightmare when they learn that their sangria is laced with LSD.</item>
+        <item>Two young lovers change the lives of their parents forever when the parents learn from the joyful experience of their kids, and allow themselves to again find their love.</item>
+        <item>An ex-marine who struggles to provide for his family and a violent drug dealer with an undefeated fighting record are determined to compete in the Donnybrook, a legendary, bare-knuckle brawl with a cash prize of $100,000.</item>
+        <item>A recently dumped divorcee in his late-twenties sets out to plan a wedding-sized divorced party in an attempt to get his life back on track.</item>
+        <item>In an attempt to flee Nazi-occupied France, Georg assumes the identity of a dead author but soon finds himself stuck in Marseilles, where he falls in love with Maria, a young woman searching for her missing husband.</item>
+        <item>About a king who attempts to lead his displaced people out of exile, and those who play a role in his mysterious plans.</item>
+        <item>A joyous family reunion becomes a hilarious nightmare as Madea and the crew travel to backwoods Georgia, where they find themselves unexpectedly planning a funeral that might unveil unpleasant family secrets.</item>
+        <item>Born with an energetic power to absorb fear from others, a young woman must find love to balance the fears of her own and fight an ever growing storm of negative energy.</item>
+        <item>A private investigator must unravel the murder of her uncle while keeping the secret that she is a descendant from a line of werewolves.</item>
+        <item>The true story of immigration attorney Judy Wood and how she singlehandedly changed the U.S. law of asylum to save women\'s lives.</item>
+    </string-array>
+
+    <array name="tv_show_poster">
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_happy_death_day_2u</item>
+        <item>@drawable/poster_the_hole_in_the_ground</item>
+        <item>@drawable/poster_greta</item>
+        <item>@drawable/poster_fighting_with_my_family</item>
+        <item>@drawable/poster_9</item>
+        <item>@drawable/poster_bilby</item>
+        <item>@drawable/poster_ruben_brandt</item>
+        <item>@drawable/poster_little_woods</item>
+        <item>@drawable/poster_birds_of_passage</item>
+        <item>@drawable/poster_climax</item>
+        <item>@drawable/poster_what_about_love</item>
+        <item>@drawable/poster_donnybrook</item>
+        <item>@drawable/poster_the_divorce_party</item>
+        <item>@drawable/poster_transit</item>
+        <item>@drawable/poster_shadow</item>
+        <item>@drawable/poster_a_madea_family_funeral</item>
+        <item>@drawable/poster_harmony</item>
+        <item>@drawable/poster_among_the_shadows</item>
+        <item>@drawable/poster_saint_judy</item>
     </array>
 </resources>

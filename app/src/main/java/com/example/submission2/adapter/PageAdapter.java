@@ -6,18 +6,14 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.example.submission2.fragment.MovieFragment;
 import com.example.submission2.fragment.TvShowFragment;
-//import com.example.submission2.fragment.TvShowFragment;
 
 public class PageAdapter extends FragmentStatePagerAdapter {
 
-    private String[] title = new String[]{"Movie", "TV Show"};
-    public PageAdapter(FragmentManager fm) {
-        super(fm);
-    }
+    private int tabItem;
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return title[position];
+    public PageAdapter(FragmentManager fm, int tabItem ) {
+        super(fm);
+        this.tabItem = tabItem;
     }
 
     @Override
